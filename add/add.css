@@ -1,0 +1,27 @@
+body {
+	font: .9em sans-serif;
+	margin: 5px;
+}
+/* replace the search-field to get space for save-/help-button */
+table.search {
+	right: 70px !important;
+}
+
+/* save-/help-buttons */
+.jsoneditor-addbuttons {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	z-index: 2;
+	float:right;
+	cursor: pointer;
+	width: 26px;
+	height: 26px;
+	border: 0px none;
+}
+
+.jsoneditor-save {
+	background-image: url('save.png') !important;
+}
+
+
