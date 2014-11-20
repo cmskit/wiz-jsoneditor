@@ -22,7 +22,7 @@
         "wizards":{
             "INTEGER": {
                 "description": "",
-                "embed": "wizard:duration\\nshow:years,months,days,hours,minutes"
+                "embed": "wizard:jsoneditor"
             }
         }
     }

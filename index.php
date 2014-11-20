@@ -13,9 +13,9 @@ include 'locales/'.$lang.'.php';
 	<!--
 		based on: http://jsoneditoronline.org
 	-->
-	<link rel="stylesheet" type="text/css" href="jsoneditor/jsoneditor.css" />
+	<link rel="stylesheet" type="text/css" href="../../../vendor/cmskit/jsoneditor/jsoneditor.min.css" />
 	<link rel="stylesheet" type="text/css" href="add/add.css" />
-	<script type="text/javascript" src="jsoneditor/jsoneditor.js"></script>
+	<script type="text/javascript" src="../../../vendor/cmskit/jsoneditor/jsoneditor.min.js"></script>
 	
 
 </head>
