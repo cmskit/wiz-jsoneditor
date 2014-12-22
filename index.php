@@ -29,7 +29,8 @@ include 'locales/'.$lang.'.php';
 	// create the editor. Optionally, parameters json and options can be
 	// specified in the constructor.
 	var container = document.getElementById("jsoneditor");
-	var editor = new jsoneditor.JSONEditor(container);
+	var editor = new JSONEditor(container);
+
 	var str = parent.$('#'+parent.targetFieldId).val();
 	if(!str || str.length<2) str = '{}';
 	editor.set(JSON.parse(str));
