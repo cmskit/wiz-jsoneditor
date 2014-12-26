@@ -4,7 +4,8 @@ Path: cms-kit/backend/wizards/jsoneditor
 
 ## Description
 
-This Wizard adds a JSON-Editor with a nice, draggable Tree-View of the JSON-Document. This is especially useful to edit Configurations etc..
+This wizard adds a JSON editor with a nice, draggable tree-view of the JSON document. 
+This is especially useful to edit configurations etc..
 
 [JSON-Editor](http://jsoneditoronline.org)
 
